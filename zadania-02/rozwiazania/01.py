@@ -1,8 +1,8 @@
 import geopandas as gpd
 import pandas as pd
 
-PLIK_WOJEWODZTWA = "data/NUTS_RG_10M_2024_4326_LEVL_2.geojson"
-PLIK_MIASTA = "data/miasta.geojson"
+PLIK_WOJEWODZTWA = "../dane/NUTS_RG_10M_2024_4326_LEVL_2.geojson"
+PLIK_MIASTA = "../dane/miasta.geojson"
 
 
 def wczytaj_wojewodztwa():
